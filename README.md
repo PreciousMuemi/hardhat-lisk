@@ -1,13 +1,34 @@
-# Sample Hardhat Project
+Hardhat Lisk Counter Contract
+This project demonstrates a basic Hardhat use case with a Counter smart contract deployable to Lisk Sepolia testnet.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Prerequisites
+Node.js (recommended: v16.x, v18.x, or v20.x)
+npm or yarn
+A wallet with some test LSK tokens
+Installation
+Clone the repository:
+Install dependencies:
+Create a .env file in the project root:
+Project Structure
+Smart Contract
+The Counter contract includes the following functions:
 
-Try running some of the following tasks:
+get(): Returns the current count
+inc(): Increments count by 1
+dec(): Decrements count by 1
+reset(): Resets count to 0
+Deployment
+To deploy to Lisk Sepolia testnet:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+Testing
+Run the test suite:
+
+Configuration
+The project uses Hardhat with the following network configuration:
+
+License
+This project is licensed under the MIT License.
+
+Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
