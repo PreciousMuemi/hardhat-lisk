@@ -3,10 +3,10 @@ require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.28",
+  solidity: "0.8.20",
   networks: {
     "lisk-sepolia": {
-      url: process.env.LISK_SEPOLIA_RPC_URL,
+      url: "https://rpc.sepolia-api.lisk.com",
       accounts: [process.env.PRIVATE_KEY]
     }
   }
